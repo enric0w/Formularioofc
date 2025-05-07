@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<h1>Formulário de inscrição:</h1>
+
+
+<body>
+    <form id="cadastro">  
+        <h2>Dados Pessoais</h2>  
+      
+        <label for="nome_completo">Nome Completo:</label><br>  
+        <input type="text" id="nome_completo" name="nome_completo"><br><br>  
+      
+        <label for="data_nascimento">Data de Nascimento:</label><br>  
+        <input type="date" id="data_nascimento" name="data_nascimento"><br><br>  
+      
+        <label for="nacionalidade">Nacionalidade:</label><br>  
+        <input type="text" id="nacionalidade" name="nacionalidade"><br><br>  
+      
+        <label for="estado_civil">Estado Civil:</label><br>  
+        <select id="estado_civil" name="estado_civil">  
+          <option value="solteiro">Solteiro(a)</option>  
+          <option value="casado">Casado(a)</option>  
+          <option value="divorciado">Divorciado(a)</option>  
+          <option value="viuvo">Viúvo(a)</option>  
+          <option value="separado">Separado(a)</option>  
+        </select><br><br>  
+      
+        <label>Sexo:</label><br>  
+        <input type="radio" id="masculino" name="sexo" value="masculino">  
+        <label for="masculino">Masculino</label><br>  
+        <input type="radio" id="feminino" name="sexo" value="feminino">  
+        <label for="feminino">Feminino</label><br>  
+        <input type="radio" id="outro" name="sexo" value="outro">  
+        <label for="outro">Outro</label><br><br>  
+      
+        <label for="cpf">CPF (Cadastro de Pessoa Física):</label><br>  
+        <input type="text" id="cpf" name="cpf"><br><br>  
+      
+        <label for="rg">RG (Registro Geral):</label><br>  
+        <input type="text" id="rg" name="rg"><br><br>  
+      
+        <label for="orgao_emissor">Órgão Emissor do RG:</label><br>  
+        <input type="text" id="orgao_emissor" name="orgao_emissor"><br><br>  
+      
+        <label for="data_emissao_rg">Data de Emissão do RG:</label><br>  
+        <input type="date" id="data_emissao_rg" name="data_emissao_rg"><br><br>  
+      
+        <label for="nome_mae">Nome da Mãe:</label><br>  
+        <input type="text" id="nome_mae" name="nome_mae"><br><br>  
+      
+        <label for="nome_pai">Nome do Pai:</label><br>  
+        <input type="text" id="nome_pai" name="nome_pai"><br><br>  
+      
+        <h2>Informações de Contato</h2>  
+      
+        <label for="endereco">Endereço Completo (Rua, Número, Complemento):</label><br>  
+        <input type="text" id="endereco" name="endereco"><br><br>  
+      
+        <label for="bairro">Bairro:</label><br>  
+        <input type="text" id="bairro" name="bairro"><br><br>  
+      
+        <label for="cidade">Cidade:</label><br>  
+        <input type="text" id="cidade" name="cidade"><br><br>  
+      
+        <label for="estado">Estado:</label><br>  
+        <select id="estado" name="estado">  
+         <option value="AC">Acre</option>  
+         <option value="AL">Alagoas</option>  
+         <option value="AP">Amapá</option>  
+         <option value="AM">Amazonas</option>  
+         <option value="BA">Bahia</option>  
+         <option value="CE">Ceará</option>  
+         <option value="DF">Distrito Federal</option>  
+         <option value="ES">Espírito Santo</option>  
+         <option value="GO">Goiás</option>  
+         <option value="MA">Maranhão</option>  
+         <option value="MT">Mato Grosso</option>  
+         <option value="MS">Mato Grosso do Sul</option>  
+         <option value="MG">Minas Gerais</option>  
+         <option value="PA">Pará</option>  
+         <option value="PB">Paraíba</option>  
+         <option value="PR">Paraná</option>  
+         <option value="PE">Pernambuco</option>  
+         <option value="PI">Piauí</option>  
+         <option value="RJ">Rio de Janeiro</option>  
+         <option value="RN">Rio Grande do Norte</option>  
+         <option value="RS">Rio Grande do Sul</option>  
+         <option value="RO">Rondônia</option>  
+         <option value="RR">Roraima</option>  
+         <option value="SC">Santa Catarina</option>  
+         <option value="SP">São Paulo</option>  
+         <option value="SE">Sergipe</option>  
+         <option value="TO">Tocantins</option>  
+        </select><br><br>  
+      
+        <label for="cep">CEP (Código de Endereçamento Postal):</label><br>  
+        <input type="text" id="cep" name="cep"><br><br>  
+      
+        <label for="telefone_fixo">Telefone Fixo (com DDD):</label><br>  
+        <input type="tel" id="telefone_fixo" name="telefone_fixo"><br><br>  
+      
+        <label for="telefone_celular">Telefone Celular (com DDD):</label><br>  
+        <input type="tel" id="telefone_celular" name="telefone_celular"><br><br>  
+      
+        <label for="email">Endereço de E-mail:</label><br>  
+        <input type="email" id="email" name="email"><br><br>  
+      
+        <h2>Dados Profissionais</h2>  
+      
+        <label for="profissao">Profissão:</label><br>  
+        <input type="text" id="profissao" name="profissao"><br><br>  
+      
+        <label for="empresa">Empresa (se aplicável):</label><br>  
+        <input type="text" id="empresa" name="empresa"><br><br>  
+      
+        <label for="cargo">Cargo (se aplicável):</label><br>  
+        <input type="text" id="cargo" name="cargo"><br><br>  
+      
+        <label for="tempo_experiencia">Tempo de Experiência na Área (em anos):</label><br>  
+        <input type="number" id="tempo_experiencia" name="tempo_experiencia"><br><br>  
+      
+        <label for="nivel_escolaridade">Nível de Escolaridade:</label><br>  
+        <select id="nivel_escolaridade" name="nivel_escolaridade">  
+          <option value="fundamental_incompleto">Fundamental Incompleto</option>  
+          <option value="fundamental_completo">Fundamental Completo</option>  
+          <option value="medio_incompleto">Médio Incompleto</option>  
+          <option value="medio_completo">Médio Completo</option>  
+          <option value="superior_incompleto">Superior Incompleto</option>  
+          <option value="superior_completo">Superior Completo</option>  
+          <option value="pos_graduacao">Pós-Graduação</option>  
+        </select><br><br>  
+      
+        <h2>Dados Acadêmicos</h2>  
+      
+        <label for="instituicao_ensino">Instituição de Ensino (última ou atual):</label><br>  
+        <input type="text" id="instituicao_ensino" name="instituicao_ensino"><br><br>  
+      
+        <label for="curso">Curso (último ou atual):</label><br>  
+        <input type="text" id="curso" name="curso"><br><br>  
+      
+        <label for="ano_conclusao">Ano de Conclusão/Previsão de Conclusão:</label><br>  
+        <input type="number" id="ano_conclusao" name="ano_conclusao"><br><br>  
+      
+        <h2>Outras Informações</h2>  
+      
+        <label for="habilidades">Habilidades/Conhecimentos Específicos:</label><br>  
+        <textarea id="habilidades" name="habilidades" rows="4" cols="50"></textarea><br><br>  
+      
+        <label for="pretensao_salarial">Pretensão Salarial (opcional):</label><br>  
+        <input type="number" id="pretensao_salarial" name="pretensao_salarial"><br><br>  
+      
+        <label for="objetivo">Breve Descrição/Objetivo (opcional):</label><br>  
+        <textarea id="objetivo" name="objetivo" rows="4" cols="50"></textarea><br><br>  
+      
+        <input type="submit" value="Enviar">  
+      </form>  
+
+
+    </body>
+</html>

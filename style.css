@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar{
+    margin: 0px;
+    padding: 5px;
+    background-color:black;
+    color:antiquewhite
+    
+}
+
+#cadastro{
+    margin: 15px;
+}
+
+
+
